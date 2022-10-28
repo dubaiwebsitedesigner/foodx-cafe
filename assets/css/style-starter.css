@@ -3941,7 +3941,12 @@
 .p-mask span {
 	color: #272727;
 }
+@media (max-width:592px) {
+  .portfolio-grids {
+  display: inline-block;
 
+  }
+}
 
 /*--//gallery--*/
 .w3l-blog-single {
