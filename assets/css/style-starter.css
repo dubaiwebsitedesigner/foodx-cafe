@@ -3941,12 +3941,7 @@
 .p-mask span {
 	color: #272727;
 }
-@media (max-width:520px) {
- .gallery-top .gallery-top-img  {
-    max-width:200px ;
-    
-  }
-}
+
 
 /*--//gallery--*/
 .w3l-blog-single {
