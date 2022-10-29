@@ -3941,13 +3941,60 @@
 .p-mask span {
 	color: #272727;
 }
-@media (max-width:592px) {
-  .portfolio-grids {
-  display: inline-block;
-
+@media (max-width:1366px) {
+  .gallery-bottom {
+		padding: 2em 0 4em 0;
+	}
+  .gallery-top-img h3 {
+		font-size:2.8em;
+		margin-top: 1.8em;
+		padding: 0px 0px 1em 1em;
+	}}
+  @media (max-width:991px) {
+    .gallery-top-img h3 {
+      font-size: 2.5em;
+      margin-top: 1.8em;
+      padding: 0px 0px 1em 1em;
+    } }
+    @media (max-width:768px) {
+      .gallery-top-img h3 {
+        font-size: 2.2em;
+        margin: 1em 0px 0px 0px;
+        padding: 0px 0px 0em 0em;
+      }
+      .gallery-bottom-text p {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 1em;
+      }
+      .gallery-top-img {
+        width: 50%;
+      }
+      .gallery-top-img span {
+        margin-left: 7px;
+      }
+      .gallery-bottom {
+        padding: 0em 0 3em 0;
+      }}
+      @media (max-width:640px) {
+        .gallery-top-img h3 {
+          font-size:2em;
+    }
   }
+  @media (max-width:568px) {
+    .gallery-top-img h3 {
+      font-size: 1.8em;
+ }}
+ @media (max-width:480px) {
+  .gallery-top-img h3 {
+    font-size: 1.6em;
 }
-
+.gallery-top-img {
+  width: 100%;
+}
+.gallery-bottom-text {
+  padding: 0;
+}}
 /*--//gallery--*/
 .w3l-blog-single {
   /*-- bottom --*/ }
