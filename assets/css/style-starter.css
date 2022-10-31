@@ -8072,10 +8072,14 @@ input[type="button"].btn-block {
 .w3l-header-4 .navbar ul li ul li{
   width: 100%;
   border-top: 1px solid black;
+  padding: 10px;
+  border-bottom: 1px black;
+  border-radius: 0;
 }
 .w3l-header-4 .navbar ul li:focus-within > ul,
 .w3l-header-4 .navbar ul li:hover > ul{
   display: initial;
+  background:grey ;
 }
 .w3l-header-4 .navbar ul li a img{
   display: inline-flex;
