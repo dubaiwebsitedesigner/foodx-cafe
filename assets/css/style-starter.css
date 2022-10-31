@@ -8077,6 +8077,11 @@ input[type="button"].btn-block {
 .w3l-header-4 .navbar ul li:hover > ul{
   display: initial;
 }
+.w3l-header-4 .navbar ul li a img{
+  display: inline-flex;
+  height:15px ;
+  
+}
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
