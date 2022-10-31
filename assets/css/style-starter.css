@@ -7957,6 +7957,7 @@ input[type="button"].btn-block {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
       color: #6c757d;
@@ -8061,7 +8062,21 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%; }
-
+.w3l-header-4 .navbar ul li ul {
+  position: absolute;
+  left:0 ;
+  width: 100px;
+  background: white;
+  display: none;
+}
+.w3l-header-4 .navbar ul li ul li{
+  width: 100%;
+  border-top: 1px solid black;
+}
+.w3l-header-4 .navbar ul li:focus-within > ul,
+.w3l-header-4 .navbar ul li:hover > ul{
+  display: initial;
+}
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
@@ -8165,6 +8180,24 @@ input[type="button"].btn-block {
       flex-basis: auto; }
     .navbar-expand-xl .navbar-toggler {
       display: none; } }
+      @media (max-width:991px){
+        .w3l-header-4 .navbar ul li{
+          width: 100%;
+        }
+        .w3l-header-4 .navbar ul li ul{
+          position: relative;
+          width: 50%;
+        }
+        .w3l-header-4 .nabar ul li ul{
+          background: white;
+          width: 25%;
+
+        }
+        .w3l-header-4 .navbar ul li ul li ul{
+          width: 50%;
+          left: 0;
+        }
+      }
 
 .navbar-expand {
   flex-flow: row nowrap;
